@@ -30,4 +30,4 @@
   ret = rob(cookies=cookie, seats_expect=[], my_seats_first=True)
   ```
 
-- 新版本暂不上传，感谢ws大佬。
+- 这个脚本很久以前写的了。新版本感谢ws大佬，暂不上传。
