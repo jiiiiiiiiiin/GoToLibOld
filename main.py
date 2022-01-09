@@ -78,7 +78,7 @@ def rob(cookies, seats_expect, my_seats_first=False, keep_alive=False, get_excep
 if __name__ == '__main__':
     cookie = ""
     # keep cookie
-    ret = utils.rob(cookies=cookie, seats_expect=[], keep_alive=True)
+    ret = rob(cookies=cookie, seats_expect=[], keep_alive=True)
     if len(ret) == 2:
         is_alive, seats = ret
     else:
@@ -86,4 +86,4 @@ if __name__ == '__main__':
         is_alive = False
 
     # rob seats 抢常用座位
-    ret = utils.rob(cookies=cookie, seats_expect=[], my_seats_first=True)
+    ret = rob(cookies=cookie, seats_expect=[], my_seats_first=True)
