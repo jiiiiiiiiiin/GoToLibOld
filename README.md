@@ -15,7 +15,7 @@
 - 每五分钟来一个心跳包，确保cookie存活
 
   ``````python
-  ret = utils.rob(cookies=cookie, seats_expect=[], keep_alive=True)
+  ret = rob(cookies=cookie, seats_expect=[], keep_alive=True)
   if len(ret) == 2:
       is_alive, seats = ret
   else:
@@ -27,7 +27,7 @@
 
   ```python
   # rob seats 抢常用座位
-  ret = utils.rob(cookies=cookie, seats_expect=[], my_seats_first=True)
+  ret = rob(cookies=cookie, seats_expect=[], my_seats_first=True)
   ```
 
 - 新版本暂不上传，感谢ws大佬。
